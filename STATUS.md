@@ -78,9 +78,22 @@
 - Local bib entries (darwin1872, schenkel1967) pushed to central bib
 - Submission bundle: `submission-bundle.zip`
 
+### 2026-03-30: Resubmitted to Metaphor and Symbol
+
+- Desk rejected from *Cognitive Science* (Rick Dale, Mar 24)
+- Retargeted to *Metaphor and Symbol* (T&F); submitted Mar 30 (ID 260828053)
+- Blanked date; no other changes to manuscript
+- Cover letter already retargeted
+
+## Literature to Consider for Revision
+
+- **Cuaya et al. (2022)** "Speech naturalness detection and language representation in the dog brain." *NeuroImage* 248, 118811. fMRI on 18 dogs: distinct cortical regions for speech detection vs language discrimination; older dogs (more exposure) show greater familiar/unfamiliar language distinction. Supports the claim that dogs extract structured categories from environment, not just associations. Relevant to §7 (canine trail cognition) — evidence for the cognitive infrastructure the framework assumes.
+- **Castro & Wasserman (2017)** "Perceptual and abstract category learning in pigeons." In *Handbook of Categorization in Cognitive Science*. Pigeons form both perceptual (similarity-based) and abstract (relational: same/different, less/greater) categories. Relevant to §8 (phylogeny) — if pigeons do abstract categorization, cross-domain extension may be more phylogenetically ancient than the paper implies. Complicates the mammalian framing but strengthens the conserved-capacity argument.
+
 ## What's Next
 
-- [ ] Await editorial decision from *Cognitive Science*
+- [ ] Await editorial decision from *Metaphor and Symbol*
+- [ ] If revisions requested: consider Cuaya et al. for §7 and Castro & Wasserman for §8
 - [ ] Source-grounding audit if revisions requested
 - [ ] Consider whether informative absences idea extends to HPC book (shared memory note posted)
 - [ ] Update PsyArXiv preprint to v2 (with POWER IS UP addition + abstract expansion)
@@ -89,7 +102,8 @@
 
 - Quantitative predictions: framework generates qualitative predictions but no quantitative ones
 - Tier 3 reviewer suggestions not addressed (developmental angle, prospective test beyond painted line, Mitchell deserves more, non-canid cases, structured erosion as section)
+- Grady (1997) primary metaphors and Kövecses (2020) cultural variation in CMT not engaged — potential "straw Lakoff" objection from M&S reviewers
 
 ## Last Updated
 
-2026-03-17
+2026-04-01
