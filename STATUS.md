@@ -92,7 +92,8 @@
 
 ## What's Next
 
-- [ ] Await editorial decision from *Metaphor and Symbol*
+- [ ] M&S portal broken (verification emails not arriving); choose alternative venue
+- [x] ~~Await editorial decision from *Metaphor and Symbol*~~
 - [ ] If revisions requested: consider Cuaya et al. for §7 and Castro & Wasserman for §8
 - [ ] Source-grounding audit if revisions requested
 - [ ] Consider whether informative absences idea extends to HPC book (shared memory note posted)
@@ -106,4 +107,4 @@
 
 ## Last Updated
 
-2026-04-01
+2026-04-06

@@ -26,3 +26,9 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 ## 2026-04-01
 
 - **Cuaya et al. (2022) and Castro & Wasserman (2017) noted for revision.** Dog fMRI paper (cortical speech/language discrimination) relevant to §7; pigeon abstract categorization relevant to §8 phylogeny. Filed in STATUS.md literature section.
+
+## 2026-04-06
+
+- **M&S portal broken.** Verification emails not arriving at any address (Humber, UofT, Gmail). Exploring alternative venues: Mind & Language, Philosophical Psychology, Philosophy of Science, Cognitive Linguistics.
+- **No named CMT formulas for dog sections.** Decided against `\metaphor{A LINE IS A TRAIL}` in §7. The paper deliberately avoids attributing named conceptual metaphors to the dog; the operation is cross-domain HPC extension, not a CMT mapping.
+- **POWER IS UP kept as shorthand.** L&J's actual label is HIGH STATUS IS UP (p. 16), but POWER IS UP is standard in secondary literature and M&S readers will recognise it.
