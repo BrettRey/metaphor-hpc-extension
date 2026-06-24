@@ -1,8 +1,10 @@
 # STATUS - Metaphor as Cross-Domain HPC Extension
 
-## Current Phase: Submitted to Cognitive Science (Wiley)
+## Current Phase: Desk rejected from Metaphor and Symbol; major retarget/rewrite needed
 
 **Preprint:** https://osf.io/preprints/psyarxiv/vuafy_v1
+
+**Current tracking note (2026-06-24):** Cognitive Science desk rejected the paper on 2026-03-24. The paper was retargeted and submitted to *Metaphor and Symbol* on 2026-03-30 (T&F tracking ID 260828053; decision-letter manuscript ID HMET-2026-0061). On 2026-06-24, Herbert Colston sent a desk-rejection decision with associate-editor comments from Stephen Flusberg. The live action is no longer portal recovery; it is to choose between a major metaphor-theory rewrite and a retargeted philosophy/cognitive-science version.
 
 ## What's Done
 
@@ -85,6 +87,14 @@
 - Blanked date; no other changes to manuscript
 - Cover letter already retargeted
 
+### 2026-06-24: Desk rejected from Metaphor and Symbol
+
+- Decision from Herbert Colston; associate-editor comments by Stephen Flusberg.
+- Decision-letter manuscript ID: HMET-2026-0061.
+- Not sent for external review.
+- Main concerns: insufficiently established novelty within metaphor theory; insufficient engagement with extended CMT, deliberate metaphor theory, discourse/cross-linguistic metaphor work, and formal/computational work on concept learning, category structure, metaphor, and analogy; central terms under-specified; prose judged polished but generic in an LLM-associated way.
+- Full local summary and revision implications: `notes/metaphor-symbol-desk-rejection-2026-06-24.md`.
+
 ## Literature to Consider for Revision
 
 - **Cuaya et al. (2022)** "Speech naturalness detection and language representation in the dog brain." *NeuroImage* 248, 118811. fMRI on 18 dogs: distinct cortical regions for speech detection vs language discrimination; older dogs (more exposure) show greater familiar/unfamiliar language distinction. Supports the claim that dogs extract structured categories from environment, not just associations. Relevant to §7 (canine trail cognition) — evidence for the cognitive infrastructure the framework assumes.
@@ -92,8 +102,12 @@
 
 ## What's Next
 
-- [ ] M&S portal broken (verification emails not arriving); choose alternative venue
+- [x] ~~M&S portal broken (verification emails not arriving); choose alternative venue~~
 - [x] ~~Await editorial decision from *Metaphor and Symbol*~~
+- [ ] Decide lane: major metaphor-theory rewrite vs retargeted philosophy/cognitive-science version
+- [ ] If metaphor-theory rewrite: engage Kövecses extended CMT, Steen deliberate metaphor theory, discourse/cross-linguistic metaphor, analogy, and computational concept-learning/category-structure work
+- [ ] If retargeting outside metaphor theory: narrow the claim away from "update to CMT" and foreground cross-domain extension/projectibility
+- [ ] Run a severe LLM-prose/house-style pass before the next submission
 - [ ] If revisions requested: consider Cuaya et al. for §7 and Castro & Wasserman for §8
 - [ ] Source-grounding audit if revisions requested
 - [ ] Consider whether informative absences idea extends to HPC book (shared memory note posted)
@@ -107,4 +121,4 @@
 
 ## Last Updated
 
-2026-04-06
+2026-06-24 — Recorded *Metaphor and Symbol* desk rejection and associate-editor diagnosis; next action is retarget/rewrite decision, not portal recovery.
