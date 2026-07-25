@@ -101,3 +101,39 @@ Corrected count: **20** page-bearing citations to `boyd1979` (an earlier entry i
 Boyd says the HPC material "is also developed in Boyd (1988, 1989, 1991)". So the earliest citable source for the property-cluster apparatus is **1988, not 1993**. Where this paper wants to date Boyd's cluster account, it should cite the 1988/1989/1991 work rather than reaching back to a 1979 chapter that doesn't contain it. `literature/boyd_1988_how_to_be_a_moral_realist_author_reprint.pdf` is already on disk.
 
 That resolves the year tension without any misattribution: 1979 for the metaphor/epistemic-access argument, 1988 onward for the cluster apparatus, 1993 for wording that appears only in the revised chapter.
+
+## DONE 2026-07-25: verified against both editions and repointed
+
+Brett supplied the 1979 first edition (Anna's Archive, ISBN 9780521227278, good text layer). Now filed as `literature/ortony1979-metaphor-and-thought-1st-ed.pdf` with a `.md` beside it. Boyd's chapter sits at pdf pp. 368--420, i.e. folio = pdf page − 12.
+
+Every citation was checked against both editions by locating its quoted string and reading the folio off the running head. Result: **8 citations moved to `boyd1979` with first-edition pages, 15 to `boyd1993metaphor`.** Both `main.tex` and `main-anonymous.tex` updated identically; `submission-bundle/main-anonymous.tex` deliberately left alone as a record of what was actually sent.
+
+### Moved to the 1979 first edition (wording verbatim there)
+
+| was | now | verified by |
+|---|---|---|
+| `[481]` | `[356--357]` | catachresis discussion (no quotation) |
+| `[482]` | `[360]` | "an irreplaceable part of the linguistic machinery of a scientific theory", "no adequate literal paraphrase is known" |
+| `[483]` | `[358]` | "introducing terminology, and modifying usage of existing terminology... causally and explanatorily significant features of the world" |
+| `[487--488]` | `[361]` | "conceits", "not through one literary work, but through the work of a generation or more of scientists", "the property of the entire scientific community" |
+| `[488]` | `[363--364]` | "inductive open-endedness", "invitations to future research" |
+| `[515]` | `[396]` | jade / nephrite example (no quotation; note Boyd spells it "jadite" in both editions, the paper's "jadeite" is its own prose and correct) |
+
+Plus the two bare `\textcite{boyd1979}` calls, which attribute the theory-constitutive-metaphor account and are right as they stand.
+
+### Kept at the 1993 revision
+
+The 11 HPC citations (folios 524--532), which cannot go to 1979 because the material isn't there, plus three whose wording doesn't match the 1979 text, plus the bare `\posscite` that attributed **HPC theory** to 1979 (a substantive misattribution: HPC is the added material). Two page numbers corrected in passing: "important for scientific explanation or for the formulation of successful inductive inferences" is on **526**, not 527 (two sites).
+
+### Still open: four quotations that match neither edition
+
+These need an authorial decision, so they were left alone. Each is inside `\enquote{}`, so each reads as a quotation.
+
+1. **`\enquote{distinctive capacities and merits}`** (p. 482). Both editions read "distinctive capacities and **achievements**". Also this is **Black's** wording quoted by Boyd (Boyd gives "(p. 37)"), so it should be attributed to Black as quoted in Boyd, not to Boyd's own page.
+2. **`\enquote{...the employment of terms in such metaphors may best be understood as contributing to features of the world...}`** (p. 489). Both editions read "the **metaphorical terms** in such metaphors may best be understood as **referring to** features of the world". "Referring to" and "contributing to" are different claims, and the paper's surrounding argument may lean on the version it printed, so restoring the source wording could change what the paragraph asserts. Worth a careful look.
+3. **`\enquote{indexing,}` and `\enquote{storage,}`** (p. 486). The 1993 list reads "certain information is \enquote{encoded} or \enquote{indexed} in \enquote{memory store} by \enquote{labeling}, whereas other information is \enquote{stored} in \enquote{images}". So "indexing," and "storage," are paraphrases wearing quotation marks. "information processing," "computer," and "retrieval" are fine.
+4. **`\enquote{favour the presence of some of the properties given the presence of the others}`** (p. 526). Source reads "**favor** the presence of the others". Two departures: anglicized spelling, and inserted material. Compare how `english-interjections` handles this legitimately, preserving Coulmas's British spelling inside the quotation with a `%` comment recording why.
+
+### State
+
+`main.tex` builds clean (27 pages, no citation warnings). Every remaining page number verifies against the edition named. The only outstanding items are the four quotations above.
