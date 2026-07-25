@@ -137,3 +137,35 @@ These need an authorial decision, so they were left alone. Each is inside `\enqu
 ### State
 
 `main.tex` builds clean (27 pages, no citation warnings). Every remaining page number verifies against the edition named. The only outstanding items are the four quotations above.
+
+## COMPLETE 2026-07-25: the four quotations fixed as well
+
+No outstanding Boyd citation or quotation problems remain. Every quotation now verifies verbatim against the edition and page it cites.
+
+| # | was | now | source |
+|---|---|---|---|
+| 1 | \enquote{distinctive capacities and merits} | metaphorical statement \enquote{has its own distinctive capacities and achievements}, attributed to Black as quoted by Boyd | both editions; Boyd is quoting Black at his "(p. 37)" |
+| 2 | \enquote{the employment of terms\dots contributing to features of the world} | \enquote{the metaphorical terms\dots referring to features of the world} | both editions |
+| 3 | \enquote{storage,} \enquote{indexing,} | information \enquote{encoded} or \enquote{indexed} in \enquote{memory store} by \enquote{labeling} | Boyd's numbered list, item 4 |
+| 4 | \enquote{favour the presence of some of the properties given the presence of the others} | \enquote{there are underlying mechanisms or processes which tend to maintain the presence of the properties} | Boyd's clause 2, second disjunct |
+
+Notes on the choices.
+
+**(1)** The full quoted clause is now used rather than a fragment, and the attribution names Black, since Boyd is quoting him. No `black1962` entry was added: the paper hasn't consulted Black directly, so "as quoted by" is the honest form.
+
+**(2)** Restoring the source wording strengthens the paragraph rather than weakening it. The point being supported is inductive open-endedness, and "referring to features of the world delineated in terms of those, perhaps as yet undiscovered, similarities" is a reference-fixing claim that fits that argument better than "contributing to" did.
+
+**(3)** Boyd's list has no "storage" or "retrieval" item; those came from a different passage. The sentence now tracks item 4 of the list on the cited page.
+
+**(4)** Boyd's clause 2 is a disjunction: either properties favour each other's presence, or underlying mechanisms maintain them, or both. The paper's argument at that point is about corrective feedback under perturbation, so the second disjunct is the one it needs, and that is now what it quotes. The British "favour" that triggered the mismatch survives only in the paper's own parenthetical gloss at the definition of homeostasis, which is paraphrase outside quotation marks and correct as it stands.
+
+### Verification
+
+Every `\citep`/`\textcite` to `boyd1979` or `boyd1993metaphor` carrying a quotation was checked programmatically against the correct scan, matching normalised text and reading folios off running heads: **11 verified, 0 failures.** (A twelfth reported a miss; it is the catachresis citation, which carries no quotation of its own, and the checker had picked up the preceding sentence's.) Build is clean at 27 pages with no citation warnings, and the 11 overfull boxes are pre-existing, identical before and after.
+
+### Two things deliberately left
+
+1. **`main-anonymous.tex` has diverged from `main.tex` by 186 lines** (347 vs 297 lines). Its Boyd citations and quotations are now fixed to match, but it is an older draft maintained by hand, and hand-syncing two versions of a paper is how quotation drift starts. It should be regenerated from `main.tex` at retarget rather than kept in parallel.
+2. **`submission-bundle/main-anonymous.tex` untouched**, deliberately: it records what was actually sent to Metaphor and Symbol and should not be rewritten.
+
+Unrelated, spotted in passing: the sentence at `main.tex` line ~127 uses "central to the present argument", which the house style rule against "the present" self-reference forbids. Not fixed, since it is outside this audit.
