@@ -39,3 +39,34 @@ So the content is 1993 content and the quotations are genuine. Two of four page 
 4. Bare `\citep{boyd1979}` / `\textcite{boyd1979}` with no page and no quotation may stay as references to the 1979 argument, if that's what they mean.
 
 Precedent: the same defect in HPC book ch. 5 was fixed 2026-07-25 (wrong key *and* off-by-one page); see that repo's DECISIONS.md. The book's other `boyd1979` cites are bare and legitimately reference the 1979 argument.
+
+## Option: cite the 1979 edition instead
+
+Better where it works, because it puts the year right in a paper partly about the history of Boyd's account. But it can't be assumed, and for the passages this paper leans on there's specific reason for doubt.
+
+**What's established.** The 1993 chapter is substantially revised, not a reset of the same text: it cites work through 1992, so parts of it are demonstrably post-1979.
+
+**What's open.** The immediate neighbourhood of the key quotations (folios 525--528) cites only 1970, so those particular sentences might well be original 1979 material. Internal evidence neither confirms nor refutes it. The wider stretch around them (folios ~522--532) does contain post-1979 citations, so that region was worked on.
+
+**Why to check these passages first.** The quotations at 526--527 sit inside a numbered list of features of natural-kind terms with property-cluster definitions and irresolvable extensional vagueness. That is HPC apparatus, and Boyd's HPC formulations are normally placed in his later work (1988 onward). If the list is an addition, quoting 1979 for those sentences isn't available at all. Five minutes with the 1979 volume settles it.
+
+**The rule to apply per citation.** Quote whichever edition was actually verified and cite that edition, with pages matching it. A mixed paper is normal: some citations to `boyd1979`, some to `boyd1993metaphor`. Where the paper makes a chronological claim and the wording exists only in 1993, cite 1993 and date the argument to 1979 in prose.
+
+**Fastest way to settle it.** The Internet Archive has two scans of the 1979 first edition, both controlled-lending:
+
+- <https://archive.org/details/metaphorthought00orto>
+- <https://archive.org/details/metaphorthought00orto_585>
+
+A free account borrows for an hour, which is enough to check four phrases. Tried and failed from here: IA advanced search, Open Library, and three search-inside endpoint forms (404, 404, 403), so this needs a browser.
+
+Library fallback: title search `"Metaphor and thought" Ortony`, restricted to **1979** and the **first edition** (catalogues list both; 2nd ed. is 1993). Chapter locator: Boyd, "Metaphor and Theory Change: What Is 'Metaphor' a Metaphor For?", pp. 356--408. No DOI for the 1st edition; the 2nd-edition chapter is 10.1017/CBO9781139173865.023.
+
+**Phrases to check, with their 1993 locations:**
+
+| phrase | 1993 page |
+|---|---|
+| no adequate literal paraphrase is known | 486 |
+| inductive open-endedness | 488 |
+| not resolvable even given all the relevant facts and all the true theories | 526 |
+| will preserve the naturalness of the kind referred to | 526 |
+| important for scientific explanation or for the formulation of successful inductive inferences | 527 |
