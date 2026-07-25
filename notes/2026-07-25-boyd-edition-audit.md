@@ -29,7 +29,7 @@ So the content is 1993 content and the quotations are genuine. Two of four page 
 
 ## Root cause
 
-`literature/boyd1979-metaphor-and-theory-change.pdf` **is the 1993 text** despite its filename: printed folios run 482--532. Reading pages off that file and citing `boyd1979` reproduces this error exactly. Ten files reference that filename so it wasn't renamed; the companion `.md` now carries a warning header.
+`literature/boyd1993-metaphor-and-theory-change-2nd-ed.pdf` **is the 1993 text** despite its filename: printed folios run 482--532. Reading pages off that file and citing `boyd1979` reproduces this error exactly. Ten files reference that filename so it wasn't renamed; the companion `.md` now carries a warning header.
 
 ## The fix, and why it isn't purely mechanical
 
