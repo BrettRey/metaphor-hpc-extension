@@ -70,3 +70,34 @@ Library fallback: title search `"Metaphor and thought" Ortony`, restricted to **
 | not resolvable even given all the relevant facts and all the true theories | 526 |
 | will preserve the naturalness of the kind referred to | 526 |
 | important for scientific explanation or for the formulation of successful inductive inferences | 527 |
+
+## RESOLVED 2026-07-25: Boyd says what's new, so the split is determinate
+
+The chapter's acknowledgements note answers the whole question:
+
+> The present essay is a revision of the original version which appeared in the 1979 edition of this collection. **Apart from minor revisions, the only new material is the material on homeostatic property cluster definitions** described in the Introduction and developed in the sections entitled "Metaphors, property homeostasis, and deference to nature" and "Homeostasis, reference, and precision." This material is also developed in Boyd (1988, 1989, 1991).
+
+Section boundaries in the 1993 text:
+
+| section | folios |
+|---|---|
+| Introduction | 481-- |
+| (pre-HPC body, 1979 material) | 482--523 |
+| Metaphors, property homeostasis, and deference to nature | 524--528 |
+| Homeostasis, reference, and precision | 529--532 |
+
+So folios **524--532 are 1993-only**, and **482--523 is the 1979 text with minor revisions**.
+
+### Classification of this paper's citations
+
+Corrected count: **20** page-bearing citations to `boyd1979` (an earlier entry in this note said 19), plus 3 bare ones.
+
+- **8 fall in 1979 material** (482 ×2, 483, 486--487, 487--488, 488--489, 488, 515). These *can* move to `boyd1979`. Two things still needed: convert each page to the 1979 pagination (the chapter runs 356--408 there), and confirm the wording, since "minor revisions" may have touched it. This is the only remaining use for the 1979 volume, and it's now a bounded job over one page range.
+- **11 fall in the 1993-only HPC sections** (526 ×2, 527 ×3, 529, 530, 532, and `\textcite` at 526--527, 527, 532). These **cannot** be cited to 1979: the material does not exist there. They must be `boyd1993metaphor`.
+- **1 at 481** (Introduction) needs an individual look, since the HPC material is "described in the Introduction" while the rest of the Introduction is 1979 text.
+
+### The priority point is recoverable another way
+
+Boyd says the HPC material "is also developed in Boyd (1988, 1989, 1991)". So the earliest citable source for the property-cluster apparatus is **1988, not 1993**. Where this paper wants to date Boyd's cluster account, it should cite the 1988/1989/1991 work rather than reaching back to a 1979 chapter that doesn't contain it. `literature/boyd_1988_how_to_be_a_moral_realist_author_reprint.pdf` is already on disk.
+
+That resolves the year tension without any misattribution: 1979 for the metaphor/epistemic-access argument, 1988 onward for the cluster apparatus, 1993 for wording that appears only in the revised chapter.
