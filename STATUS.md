@@ -4,6 +4,9 @@
 
 **Preprint:** https://osf.io/preprints/psyarxiv/vuafy_v1
 
+**Before resubmission:** all 19 page-bearing `boyd1979` citations use 1993 second-edition pages under a first-edition key, so they don't resolve as printed; two of four sampled pages are also wrong within 1993. Evidence and fix procedure in `notes/2026-07-25-boyd-edition-audit.md`.
+
+
 **Current tracking note (2026-06-24):** Cognitive Science desk rejected the paper on 2026-03-24. The paper was retargeted and submitted to *Metaphor and Symbol* on 2026-03-30 (T&F tracking ID 260828053; decision-letter manuscript ID HMET-2026-0061). On 2026-06-24, Herbert Colston sent a desk-rejection decision with associate-editor comments from Stephen Flusberg. The live action is no longer portal recovery; it is to choose between a major metaphor-theory rewrite and a retargeted philosophy/cognitive-science version.
 
 ## What's Done
